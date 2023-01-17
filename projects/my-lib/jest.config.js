@@ -3,6 +3,6 @@ module.exports = {
     setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
     moduleNameMapper: {
         '^rxjs(/operators)?$': '<rootDir>../../node_modules/rxjs/dist/bundles/rxjs.umd.js',
+        '^rxjs/testing': '<rootDir>../../node_modules/rxjs/dist/cjs/testing/index.js'
       },
-    // transformIgnorePatterns: ['node_modules/(?!tslib|rxjs)'],
 }
