@@ -2,7 +2,8 @@
 {
   "extends": "../../tsconfig.spec.json",
   "compilerOptions": {
-    "module": "CommonJs",
+    "esModuleInterop": true,
+    "module": "ES2020",
     "outDir": "../../out-tsc/spec",
   },
   "include": [
